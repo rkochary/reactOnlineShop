@@ -1,0 +1,12 @@
+.users_thead {
+    background-color: rgb(150, 150, 255);
+    color:white
+}
+.users_tr {
+    cursor: pointer;
+    transition: .1s;
+}
+
+.users_tr:hover {
+    background-color: rgb(213, 213, 255);
+}

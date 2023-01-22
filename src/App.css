@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,200&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   user-select: none;
+   font-family: 'Aboreto';
+}
+
+a {
+   text-decoration: none;
+   flex-grow: 3;
+   justify-content: center;
+   align-self: center;
+   color: white;
+}
+
+.active {
+   color: #5082fc;
+}
+
+#root {
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+}
+
+.productsWrapper {
+   display: flex;
+   justify-content: space-between;
+}
+
+.searchWrapper {
+   margin: 40px 20px;
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.profileContainer {
+   width: 100%;
+   height: 100vh;
+   background: #1a202c;
+   display: flex;
+   margin-top: -6rem;
+   align-items: center;
+   justify-content: center;
+   overflow: hidden;
+   flex-wrap: wrap;
+}
+
+.userTabPanel {
+   color: white;
+   min-height: 200px;
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   width: 50%;
+}
+
+.css-heg063-MuiTabs-flexContainer {
+   justify-content: center;
+}
+
+.profileBox {
+   position: relative;
+   flex-direction: column;
+   flex-wrap: wrap;
+   justify-content: center;
+   align-items: center;
+   width: 500px;
+   background-color: #1a202c;
+   border: 1px solid white;
+   border-radius: 20px;
+   margin-top: 80px;
+   padding: 40px 90px;
+   min-height: 350px;
+}
+
+.profileCard {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+}
+
+.profileCard h3 {
+   color: #5e626b;
+   margin-bottom: 2rem;
+   text-transform: uppercase;
+   letter-spacing: 0.75%;
+}
+
+.inputBox {
+   position: relative;
+   width: 200px;
+}
+
+.personalInfoHandleButton {
+   position: absolute;
+   bottom: 80px;
+}
+
+.personalInfoHandleButton button {
+   appearance: none;
+   border: none;
+   outline: none;
+   background: none;
+   cursor: pointer;
+   margin: 10px;
+}
+
+.inputBox input {
+   width: 100%;
+   padding: 10px;
+   border: 1px solid #5082fc;
+   background: transparent;
+   border-radius: 5px;
+   outline: none;
+   margin: 10px;
+   color: #5e626b;
+   font-weight: 600;
+   font-size: 1em;
+}
+
+.inputBox span {
+   color: #5082fc;
+   font-size: 0.65em;
+   padding: 0 10px;
+   position: absolute;
+   top: 3px;
+   left: 15px;
+   background: #1a202c;
+}
+
+.inputBox input:not(:read-only) {
+   color: white;
+}
+
+.personalInfoChangeButton {
+   display: flex;
+   justify-content: center;
+   margin: 20px 10px 0px;
+   background: #1976d2;
+   outline: none;
+   border: none;
+   color: #fff;
+   padding: 10px 22px;
+   border-radius: 8px;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+.deleteAccountButton {
+   display: flex;
+   justify-content: center;
+   margin: 20px 10px 0px;
+   width: 172px;
+   background: red;
+   outline: none;
+   border: none;
+   color: #fff;
+   padding: 10px 22px;
+   border-radius: 8px;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+.userProfileEffect {
+   position: relative;
+   display: block;
+   width: 40px;
+   height: 40px;
+}
+.userProfileEffect::before {
+   content: '';
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 200%;
+   height: 200%;
+   background-color: #5082fc;
+   border-radius: 50%;
+   transition: 2s;
+   transform: scale(0);
+   box-shadow: 0 0 15px #5082fc, 0 0 10px #5082fc, 0 0 20px #5082fc, 0 0 40px #5082fc,
+      0 0 60px #5082fc, 0 0 80px #5082fc, 0 0 100px #5082fc;
+}
+
+.userProfileEffect:hover::before {
+   transition: 0s;
+   transform: scale(1);
+}
+
+@media screen and (max-width: 899.5px) {
+   .headerInfo {
+      display: none;
+   }
+
+   .headerSlider {
+      margin-top: 6rem;
+   }
+}

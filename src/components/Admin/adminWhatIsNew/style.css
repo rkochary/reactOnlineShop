@@ -1,0 +1,97 @@
+.what_is_New_borad {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 5%;
+    height: 70vh;
+    margin-top: 5% ;
+}
+.what_is_New_borad > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.what_is_New_borad > div >div {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 200px;
+    height: 250px;
+    border: 1px solid rgb(138, 164, 219);
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px rgb(95, 152, 218);
+    cursor: pointer;
+    transition: 0.1s;
+}
+.what_is_New_borad > div > h3 {
+    font-size: 25px;
+    background: -webkit-linear-gradient(rgb(0, 187, 187), rgb(0, 165, 14));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.what_is_New_borad > div >div> img {
+    width: 70%;
+    height: 70%;
+}
+
+
+
+.what_is_New_borad > div> div:hover {
+    transform: scale(1.02);
+    box-shadow: 14px 14px 10px rgb(138, 164, 219);
+}
+.what_is_New_borad >div> div:active {
+    transform: scale(.94);
+}
+.logo_frame {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: rgb(191, 235, 191);
+}
+.lessProd_notify{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+.lessProd_notify_num{
+    position: absolute;
+    color: rgb(6, 109, 28);
+    font-weight: bold;
+    top: 30%;
+    right: 35%;
+}
+.what_is_New_borad > div> div:hover  .lessProd_notify, .newUsers_notify{
+    transform: scale(1)
+}
+.what_is_New_borad > div> div:hover .lessProd_notify_num , .newUsers_notify_num{
+    transform: scale(1)
+}
+
+.lessSales_notify {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+
+
+
+.newUsers {
+    position: relative;
+}
+
+.newUsers_notify{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+}
+
+.newUsers_notify_num{
+    position: absolute;
+    color: rgb(6, 109, 28);
+    font-weight: bold;
+    top: 30%;
+    right: 35%;
+}

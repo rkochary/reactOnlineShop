@@ -1,0 +1,33 @@
+.global_products{
+    position: relative;
+}
+
+.Add_Products_Field {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px 0;
+}
+.products_list_field{
+    padding: 20px 0;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+  
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+.product_search_block{
+    display: flex;
+    padding: 20px 0;
+}
+
+
+
+

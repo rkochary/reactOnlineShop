@@ -1,0 +1,23 @@
+.prod_row{
+   transition: .1s;
+}
+.prod_row:hover {
+   background-color: rgb(237, 248, 252);
+   outline: 1px solid rgb(201, 201, 201);
+   border-radius: 4px;
+   transform: scale(1.01);
+   box-shadow: 5px 0px 10px 10px rgb(196, 240, 255);
+}
+.products_list_image {
+   max-width: 50px;
+   max-height: 50px;
+}
+.quantity_green{
+   background-color: rgb(139, 255, 104);
+}
+.quantity_blue{
+   background-color: rgb(100, 100, 250);
+}
+.quantity_red {
+   background-color: rgb(255, 75, 75);
+}

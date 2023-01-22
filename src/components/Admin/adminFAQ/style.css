@@ -1,0 +1,127 @@
+.add_faq{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 30px 0;
+}
+
+.add_faq_question {
+    width: 100%;
+    height: 40px;
+    padding: 6px;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: rgb(100, 100, 100);
+
+}
+
+.add_faq_answer {
+    width: 100%;
+    min-height: 70px;
+    padding: 6px;
+    font-family: sans-serif;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: rgb(100, 100, 100);
+}
+
+.add_btn_frame {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.faq_frame {
+    width:100%;
+    height: auto;
+    padding: 20px 10px;
+    margin: 10px 0;
+    border: 1px solid gainsboro;
+    border-radius: 4px;
+    background-color: rgb(245, 245, 245);
+    transition: .1s;
+}
+
+.faq_frame:hover {
+    background-color: lightcyan;
+    box-shadow: 5px 5px 5px rgb(173, 173, 173);
+    transform: scale(1.01);
+}
+
+.dlt_chng_frame {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%; 
+}
+
+/* //////modal window code////// */
+.faq_modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(109, 149, 173, 0.507);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.faq_modal_child{
+    z-index: 100000;
+    width: 50% ;
+    max-height: 500px;
+    min-width: 30% ;
+    min-height: 500px;
+    background-color: rgb(179, 217, 252);
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 8px;
+    box-shadow: 18px 18px 15px rgb(87, 86, 86);
+}
+
+.answer_frame{
+    width: 100%;
+    min-height: 50%;
+    max-height: 80%;
+}
+.answer {
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 150px;
+    /* max-height: 50%; */
+    padding: 10px;
+    font-size: 18px;
+    font-family: sans-serif;
+    color: rgb(100, 100, 100);
+}
+
+.question_frame{
+    width: 100%;
+    min-height:30px;
+}
+
+.question {
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 70px;
+    padding: 10px;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: rgb(100, 100, 100);
+}
+
+.buttons_frame {
+    display: flex;
+    justify-content: space-evenly;
+    width: 35%;
+}

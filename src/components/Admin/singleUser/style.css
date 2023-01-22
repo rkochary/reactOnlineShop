@@ -1,0 +1,31 @@
+
+h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 28px;
+}
+.user_name {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 38px;
+    color: rgb(97, 97, 97);
+    margin-bottom: 40px;
+}
+.info_frame {
+    width: 100%;
+    border: 1px solid rgb(228, 228, 228);
+    border-radius: 6px;
+    padding: 30px 10px;
+    background-color: rgb(247, 255, 237);
+}
+.info_span {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(40, 40, 110);
+}
+ span {
+    font-size: 22px;
+    color: rgb(61, 61, 61);
+}
+
+.table {
+    background-color: white;
+}
